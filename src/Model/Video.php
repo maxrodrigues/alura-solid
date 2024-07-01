@@ -2,7 +2,7 @@
 
 namespace Alura\Solid\Model;
 
-class Video implements Pontuavel
+class Video implements Pontuavel, Assistivel
 {
     /** @var bool */
     protected $assistido = false;
